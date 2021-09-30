@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '75c6f9f81932b1f6bd3dbbaf9a1ed01b9c069ab2',
+        'reference' => 'caacb855c73727e55a3e0306c6b2659fa73622a0',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '75c6f9f81932b1f6bd3dbbaf9a1ed01b9c069ab2',
+            'reference' => 'caacb855c73727e55a3e0306c6b2659fa73622a0',
             'dev_requirement' => false,
         ),
         'monolog/monolog' => array(
@@ -26,6 +26,15 @@
             'install_path' => __DIR__ . '/../monolog/monolog',
             'aliases' => array(),
             'reference' => '437e7a1c50044b92773b361af77620efb76fff59',
+            'dev_requirement' => false,
+        ),
+        'phpmailer/phpmailer' => array(
+            'pretty_version' => 'v6.5.1',
+            'version' => '6.5.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpmailer/phpmailer',
+            'aliases' => array(),
+            'reference' => 'dd803df5ad7492e1b40637f7ebd258fee5ca7355',
             'dev_requirement' => false,
         ),
         'psr/log' => array(

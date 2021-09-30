@@ -10,6 +10,7 @@ class ComposerStaticInit4b572a9dbc2253a9ff82f0ea7b2fe32b
         'P' => 
         array (
             'Psr\\Log\\' => 8,
+            'PHPMailer\\PHPMailer\\' => 20,
         ),
         'M' => 
         array (
@@ -21,6 +22,10 @@ class ComposerStaticInit4b572a9dbc2253a9ff82f0ea7b2fe32b
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/src',
+        ),
+        'PHPMailer\\PHPMailer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
         ),
         'Monolog\\' => 
         array (
